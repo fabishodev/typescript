@@ -2,9 +2,9 @@
 
 //console.log('Hola Mundo!');
 
-import { Elemento, Propiedad } from "./clases";
-import { nombre } from "./functions";
-import { Telefono, Actor, Pelicula } from "./interfaces"
+import { Elemento, Propiedad } from "./utils/clases";
+import { nombre } from "./utils/functions";
+import { Telefono, Actor, Pelicula } from "./utils/interfaces"
 
 /*
     ===== Código de TypeScript =====
@@ -54,7 +54,7 @@ const elemento1 = new Elemento(
     "bueno no tanto", 
     3,
     pr);
-    
+
 console.log(elemento1.pro4.volumen)
 elemento1.pro2 = 3;
 
